@@ -49,21 +49,6 @@ This project demonstrates how **Copilot Studio orchestrates Azure OpenAI safely*
 This solution intentionally separates **AI reasoning** from **enterprise data access**.
 
 ```mermaid
-flowchart LR
-  U[User] --> CS[Microsoft Copilot Studio Agent]
-
-  CS -->|M365 permissions| G[Microsoft Graph]
-  G -->|Retrieve documents / context| SP[SharePoint Online\nESGComplianceHub / Documents / 03_Contracts]
-
-  SP -->|Grounded context| CS
-
-  CS -->|Reasoning only (no direct SharePoint access)| AO[Azure OpenAI]
-  AO --> OUT[Structured ESG Compliance Output\n(obligations • risks • impacts • sources)]
-
-  AO -.->|No direct access| SPX[(SharePoint)]
-  SPX -. blocked .- AO
-
-```mermaid
 flowchart TB
   subgraph Enterprise["Enterprise Boundary (Microsoft 365)"]
     CS[Copilot Studio Agent]
