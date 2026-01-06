@@ -148,48 +148,30 @@ Reputational risk exposure
 This folder documents the practical behavior of the ESG Compliance Monitor across Microsoft Copilot Studio, SharePoint, and standalone Azure OpenAI.
 
 ---
+### Copilot Studio – Agent question and answer
 
-## SharePoint ESG Compliance Hub
+![Copilot Studio – Agent Answer](screenshots/screenshot_Copilot_studio_AI_Agent_answear.JPG)
 
-**SharePoint ESG Compliance Hub – document library structure**
+### Copilot Studio – Identified ESG risks
 
-![SharePoint ESG Compliance Hub](screenshot_SharePoint_ESG_Compliance_Hub.JPG)
+![Copilot Studio – Identified Risks](screenshots/screenshot_Copilot_sstudio_Identified_risks.JPG)
 
-**Contracts stored in SharePoint (03_Contracts folder)**
+### Azure OpenAI – Standalone Agent (no SharePoint access)
 
-![SharePoint Documents](screenshot_SharePoint_Documents.JPG)
-
----
+![Azure OpenAI Agent](screenshots/screenshot_Azure_OpenAI_Agent_answearJPG.JPG)
 
 ## Copilot Studio – Knowledge & Analysis
 
-**Copilot Studio – ESG public contract used as knowledge source**
+### Copilot Studio – Agent question and answer
+[IMAGE]
 
-![Copilot Studio Contract Source](screenshot_Copilot_studio_ESG_Publics_Contract_Sourse.JPG)
+### Copilot Studio – Identified ESG risks
+[IMAGE]
 
-**Copilot Studio – referenced knowledge sources**
+## Azure OpenAI (Standalone)
 
-![Copilot Studio Knowledge Sources](screenshot_Copilot_studio_question AI_Agent.JPG)
-
-**Copilot Studio – identified ESG compliance risks**
-
-![Copilot Studio Identified Risks](screenshot_Copilot_sstudio_Identified_risks.JPG)
-
-**Copilot Studio – structured ESG analysis output**
-
-![Copilot Studio Agent Answer](screenshot_Copilot_studio_AI_Agent_answear.JPG)
-
----
-
-## Azure OpenAI – Standalone Agent (Comparison)
-
-**Azure OpenAI – agent configuration (no SharePoint access)**
-
-![Azure OpenAI Agents](screenshot_Azure_OpenAI_Agents.JPG)
-
-**Azure OpenAI – response requiring manual document upload**
-
-![Azure OpenAI Agent Answer](screenshot_Azure_OpenAI_Agent_answearJPG.JPG)
+### Azure OpenAI – Agent response
+[IMAGE]
 
 ---
 
