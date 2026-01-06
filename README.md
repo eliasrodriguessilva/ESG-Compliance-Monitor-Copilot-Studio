@@ -85,8 +85,8 @@ Documents/
 ├─ 01_Legislation
 ├─ 02_ESG_Policies
 ├─ 03_Contracts
-│ ├─ ESG_Public_Contract_Source.docx
-│ ├─ ESG_Public_Contract_Source.pdf
+│  ├─ ESG_Public_Contract_Source.docx
+│  ├─ ESG_Public_Contract_Source.pdf
 ├─ 04_Reports
 ├─ 05_AI_Output
 
