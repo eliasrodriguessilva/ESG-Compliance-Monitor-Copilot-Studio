@@ -148,7 +148,6 @@ Reputational risk exposure
 This folder documents the practical behavior of the ESG Compliance Monitor across Microsoft Copilot Studio, SharePoint, and standalone Azure OpenAI.
 
 ## Copilot Studio – Question & Answer (Live Example)
-
 Below is a real interaction with the ESG Compliance Monitor agent in **Microsoft Copilot Studio**.
 The agent analyzes an ESG public contract stored in SharePoint and produces structured compliance risks.
 
