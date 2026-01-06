@@ -12,14 +12,53 @@ This project demonstrates a safe M365-native approach:
 - Audit-friendly setup (library structure, metadata)
 - Clear boundaries (no legal advice, no personal data processing)
 ---
-## Architecture (high level)
-**User → Copilot Studio Agent → Microsoft Graph (SharePoint Knowledge) → Azure OpenAI (reasoning) → Structured output**
+## Architecture Overview
+This solution is built using Microsoft Copilot Studio, which orchestrates Azure OpenAI reasoning while securely retrieving document context from SharePoint Online.
+The architecture intentionally separates AI reasoning from enterprise data access to ensure security, governance, and auditability.
 
-Key principles:
-- **Least privilege**: agent reads only the selected SharePoint library/folder
-- **Governance**: metadata-based classification and scope limitation
-- **Auditability**: clear source references in every output
-- **Safety**: no legal advice, no processing of personal data
+High-level flow:
+
+- Contracts are stored in SharePoint Online.
+- Copilot Studio retrieves document context using Microsoft 365 permissions.
+- Azure OpenAI processes only the retrieved context, not raw SharePoint data.
+- The agent produces structured ESG and compliance analysis outputs.
+- Azure OpenAI never directly connects to SharePoint.
+--- 
+## Copilot Studio vs Standalone Azure OpenAI
+
+This project intentionally demonstrates the difference between enterprise orchestration and standalone AI usage.
+
+## Copilot Studio (Used in this project)
+
+Has native integration with SharePoint
+Uses Microsoft Entra ID (Azure AD) permissions
+Retrieves only authorized document content
+Passes limited context to Azure OpenAI
+Fully compliant with enterprise security and audit requirements
+
+## Standalone Azure OpenAI (Not used for SharePoint access)
+
+Has no native access to SharePoint
+Requires manual document upload or external ingestion pipelines
+Cannot resolve SharePoint permissions
+Is intentionally isolated from enterprise document storage
+
+This separation is by design and is a key security principle.
+--- 
+## Data Access and Security Model
+
+SharePoint access is controlled exclusively by Microsoft 365 permissions
+Azure OpenAI never sees SharePoint URLs, metadata, or file structure
+Only text content explicitly retrieved by Copilot Studio is sent to the model
+No documents are stored, cached, or indexed outside SharePoint
+
+This ensures:
+
+Least-privilege access
+Auditability
+GDPR-friendly processing
+Enterprise-grade data isolation
+
 ---
 ## SharePoint structure
 SharePoint site: `ESGComplianceHub`
