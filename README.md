@@ -172,19 +172,6 @@ It never connects directly to SharePoint.
 
 ![Azure OpenAI Agent](screenshots/screenshot_Azure_OpenAI_Agent_answearJPG.JPG)
 
-## Copilot Studio – Knowledge & Analysis
-
-### Copilot Studio – Agent question and answer
-[IMAGE]
-
-### Copilot Studio – Identified ESG risks
-[IMAGE]
-
-## Azure OpenAI (Standalone)
-
-### Azure OpenAI – Agent response
-[IMAGE]
-
 ---
 
 ## Key Observations
